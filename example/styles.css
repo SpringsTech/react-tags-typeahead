@@ -124,8 +124,10 @@
 }
 
 .react-tags__suggestions ul {
-  margin: 4px -1px;
+  margin: 0;
   padding: 0;
+  max-height: 200px;
+  overflow: auto;
   list-style: none;
   background: white;
   border: 1px solid #D1D1D1;

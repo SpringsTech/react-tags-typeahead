@@ -36,6 +36,7 @@ class App extends React.Component {
         <ReactTags
           ref={this.reactTags}
           tags={this.state.tags}
+          minQueryLength={0}
           suggestions={this.state.suggestions}
           onDelete={this.onDelete.bind(this)}
           onAddition={this.onAddition.bind(this)}
