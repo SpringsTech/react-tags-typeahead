@@ -1,10 +1,10 @@
-# React Tag Autocomplete
+# React Tags Typeahead
 
 [![Build status](https://api.travis-ci.org/i-like-robots/react-tags.svg?branch=master)](https://travis-ci.org/i-like-robots/react-tags) [![Coverage Status](https://coveralls.io/repos/github/i-like-robots/react-tags/badge.svg?branch=master)](https://coveralls.io/github/i-like-robots/react-tags)
 
-React Tag Autocomplete is a simple tagging component ready to drop in your React projects. Originally based on the [React Tags project](http://prakhar.me/react-tags/example) by Prakhar Srivastav this version removes the drag-and-drop re-ordering functionality, adds appropriate roles and ARIA states and introduces a resizing text input. [View demo](http://i-like-robots.github.io/react-tags/).
+React Tags Typeahead is a simple tagging component ready to drop in your React projects. Originally based on the [React Tags project](http://prakhar.me/react-tags/example) by Prakhar Srivastav this version removes the drag-and-drop re-ordering functionality, adds appropriate roles and ARIA states and introduces a resizing text input. [View demo](http://i-like-robots.github.io/react-tags/).
 
-![Screenshot of React Tag Autocomplete](https://cloud.githubusercontent.com/assets/271645/25478773/54aa2bbe-2b3a-11e7-95cf-d419f3c24418.png)
+![Screenshot of React Tags Typeahead](https://cloud.githubusercontent.com/assets/271645/25478773/54aa2bbe-2b3a-11e7-95cf-d419f3c24418.png)
 
 ## Installation
 
@@ -13,7 +13,7 @@ This is a [Node.js] module available through the [npm] registry. Before installi
 Installation is done using the [npm install] command:
 
 ```
-npm install --save react-tag-autocomplete@pre-release
+npm install --save react-tag-typeahead@pre-release
 ```
 
 [Node.js]: https://nodejs.org/en/
@@ -27,7 +27,7 @@ Here's a sample implementation that initializes the component with a list of pre
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ReactTags from 'react-tag-autocomplete'
+import ReactTags from 'react-tags-typeahead'
 
 class App extends React.Component {
   constructor (props) {

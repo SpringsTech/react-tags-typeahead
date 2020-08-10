@@ -1,5 +1,9 @@
 # Changelog
 
+## react-tags-typeahead 1.0.0
+
+- Added support for select suggestions by up/down arrows
+
 ## 6.0.0
 
 - Added `clearInput` method to programmatically clear input text

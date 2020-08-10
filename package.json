@@ -1,7 +1,7 @@
 {
-  "name": "react-tag-autocomplete",
-  "version": "6.0.0",
-  "description": "React Tag Autocomplete is a simple tagging component ready to drop in your React projects.",
+  "name": "react-tags-typeahead",
+  "version": "1.0.0",
+  "description": "React Tags Typeahead is a simple tagging component ready to drop in your React projects.",
   "main": "dist/ReactTags.cjs.js",
   "module": "dist/ReactTags.esm.js",
   "browser": "dist/ReactTags.umd.js",
@@ -22,10 +22,12 @@
     "tag input",
     "react-component",
     "autosuggest",
+    "typeahead",
     "autocomplete"
   ],
-  "author": "Matt Hinchliffe",
+  "author": "Springs Tech",
   "contributors": [
+    "Matt Hinchliffe",
     "Prakhar Srivastav",
     "Simon Hötten",
     "Andre-John Mas",
