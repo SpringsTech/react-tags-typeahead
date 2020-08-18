@@ -1,6 +1,6 @@
 {
   "name": "react-tags-typeahead",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Tags Typeahead is a simple tagging component ready to drop in your React projects.",
   "main": "dist/ReactTags.cjs.js",
   "module": "dist/ReactTags.esm.js",
