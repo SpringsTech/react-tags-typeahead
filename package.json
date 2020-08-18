@@ -5,6 +5,7 @@
   "main": "dist/ReactTags.cjs.js",
   "module": "dist/ReactTags.esm.js",
   "browser": "dist/ReactTags.umd.js",
+  "types": "types/ReactTags.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "prepublish": "npm run build",
